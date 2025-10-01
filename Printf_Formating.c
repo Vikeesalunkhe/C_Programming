@@ -7,6 +7,10 @@ void main(){
 	char name[] = "Vikee";
 
 	printf("Age is: %d\n", Age);
+	printf("Angle is: %f\n", Angle);
+	printf("Angle is: %.2f\n", Angle);
+	printf("let is: %c\n", let);
+	printf("name is %s\n", name);
 	
 
 }
