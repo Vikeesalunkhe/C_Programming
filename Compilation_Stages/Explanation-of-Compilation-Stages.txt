@@ -1,0 +1,13 @@
+
+
+$cc Program.c
+>>a.out             //a.out file will created after compilare prohram
+
+%cc -save-temps Programc
+>>a.out  a-Program.i   a-Program.s   a-Program.o   a-Program.c
+
+//a-Program.i => Preprocessing File
+//a-Program.s => Compiling and Errr/Syntax Cheaking
+//a-Program.o => Object(Binary) file
+//a.out =>Linking File of a-Program.o and libc.os file         #libc.os = printf/scanf binary code are present in that file
+									located in /use/lin/x86_64../libc.os 
