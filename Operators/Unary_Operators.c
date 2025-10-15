@@ -20,6 +20,14 @@ void main() {
         printf("x is : %d\n", x);       //12
         printf("ans is : %d\n", ans);   //24
 
+        x = 10;
+        ans = 0;
+        printf("x is : %d\n", x);       //10
+        ans = ++x + ++x + ++x;          // (x=10 , pre_x=11) + (x=11 , pre_x=12) + (x=12 , pre_x=13)
+        printf("x is : %d\n", x);       //13
+        printf("ans is : %d\n", ans);   //37
+
+
 
 	//post-increment
 	int y = 10;
@@ -36,4 +44,12 @@ void main() {
         ans = y++ + y++;                //(x=10 , post_x=11) + (x=11 , post_x=12)
         printf("y is : %d\n", y);       //12
         printf("ans is : %d\n", ans);   //21
+
+        y = 10;
+        ans = 0;
+        printf("y is : %d\n", y);       //10
+        ans = y++ + y++ + y++;          //(x=10 , post_x=11) + (x=11 , post_x=12) + (x=12 , post_x=13)
+        printf("y is : %d\n", y);       //13
+        printf("ans is : %d\n", ans);   //33    
+        
 }
