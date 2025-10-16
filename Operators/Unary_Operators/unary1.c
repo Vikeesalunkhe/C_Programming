@@ -11,8 +11,6 @@ void main() {
 	printf("x is : %d\n", x);      //11
 	printf("ans is : %d\n", ans);   //11
 				 
-	////////
-	
 	x = 10;
         ans = 0;
         printf("x is : %d\n", x);       //10
@@ -27,7 +25,7 @@ void main() {
         printf("x is : %d\n", x);       //13
         printf("ans is : %d\n", ans);   //37
 
-
+        
 
 	//post-increment
 	int y = 10;
@@ -37,7 +35,6 @@ void main() {
         printf("y is : %d\n", y);       //11
         printf("ans is : %d\n", ans);   //10
 	
-	//////
 	y = 10;
         ans = 0;
         printf("y is : %d\n", y);       //10
