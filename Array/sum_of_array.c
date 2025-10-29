@@ -9,7 +9,7 @@ void main() {
 
 	int arr[size];    //initializ size of array
 			  
-	printf("Array size is : %ld", sizeof(arr));
+	printf("Array size is : %ld\n", sizeof(arr));
 
 	for (int index = 0; index<size; index++) {
 	
@@ -19,6 +19,7 @@ void main() {
 
 	
 	int sum = 0;
+
 
 	for (int index = 0; index<size; index++) {
 		
