@@ -22,8 +22,8 @@ void main() {
 
     for (int i = 0; i<(size/2); i++) {
 
-        int last = size - (i+1);
+        int revs_index = size - (i+1);
 
-        printf("sum is : %d\n", (arr[i] + arr[last]));
+        printf("sum is : %d\n", (arr[i] + arr[revs_index]));
     }
 }
