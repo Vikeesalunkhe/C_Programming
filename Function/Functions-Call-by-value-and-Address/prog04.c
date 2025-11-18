@@ -6,10 +6,7 @@ void array(int* arry_address, int size) {
     for (int i = 0; i<size; i++) {
 
         printf("Array Element is : %d\n", *(arry_address + i));
-    }
-
-}
-
+    }}
 
 void main() {
 
