@@ -12,7 +12,7 @@ void main() {
 
 	printf("------------------------\n");
 
-	int num02;       //defenatoion
+	int num02;       
 	num02 = 20;      //Assignment
 	int *ptr_num02;   //wild pointer
 	ptr_num02 = &num02;

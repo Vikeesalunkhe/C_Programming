@@ -8,7 +8,4 @@ void main() {
 
     printf("%ld\n", sizeof(carr));        //5
     printf("%ld\n", sizeof(carr[0]));     //1
-
-
-
 }
