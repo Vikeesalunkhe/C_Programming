@@ -10,7 +10,6 @@ char my_str_copy(char src[], char name2[]) {
         index++;
     }
     name2[index] = '\0';
-
 }
 
 void main() {
