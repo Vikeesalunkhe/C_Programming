@@ -19,7 +19,6 @@ void main() {
     }
 
     printf("Array Created Sucseccfully\n");
-
     printf("Even Element in Array is : \n");
 
     for (int i = 0; i<size; i++) {
