@@ -7,7 +7,7 @@ int main() {
 	}
 	while (1);	
 	}
-}
+
 
 
 //output : continue print Hello
