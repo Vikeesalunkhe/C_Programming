@@ -25,3 +25,4 @@ int main(){
 
     printf("sum : %d\n", sum);
 }
+

@@ -11,6 +11,7 @@ void remove_vowels(char str[], char temp[]){
             str[i] == 'O' || str[i] == 'U' || 
             str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || 
             str[i] == 'o' || str[i] == 'u'){
+                continue;
 
             
         }
