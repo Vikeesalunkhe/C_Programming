@@ -35,8 +35,20 @@ int main(){
 
 
     for (int i = 0; i<nth_cars; i++){
-        for (int j = 0; j<nth_cars-1)
+        for (int j = 0; j<nth_cars-1; j++){
+            if (cars[j].year > cars[j+1].year){
+                struct Car temp = cars[j];
+                cars[j] = cars[j+1];
+                cars[j+1] = temp;
+            }
+        }
+    }
 
+    printf("Sorted car info : \n");
+    for (int i = 0; i<nth_cars; i++){
+        printf("make %s\n: ", cars[i].make);
+        printf("model %s\n: ", cars[i].model);
+        printf("year %d\n: ", cars[i].year);
 
     }
 
